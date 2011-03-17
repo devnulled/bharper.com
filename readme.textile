@@ -1,0 +1,10 @@
+h1. bharper.com
+
+This is a quick and dirty personal home page I worked-up for myself while playing
+around with Javascript and jQuery.  I put it in GitHub simply to have it in
+revision control, not because I think it's awesome.
+
+h2. TODO's
+* Mavenize this stuff
+* Use Coffeescript to generate the JS instead
+* Maybe get rid of the link carousel?  Not sure that it's really needed

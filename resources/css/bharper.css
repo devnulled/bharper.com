@@ -1,0 +1,121 @@
+body {
+	background:fixed #01308c url("../images/background_clouds.jpg") no-repeat;
+	margin: 0;
+	padding: 0;
+	
+	font: 14px/21px Lucida Grande, Trebuchet MS, Verdana, Arial, sans-serif;
+	color: #d3dced;
+	text-align: justify;
+}
+
+a, a:visited{
+	color: #f9d58f;
+	text-decoration: none;
+	border-bottom: 1px dotted #f9d58f;
+}
+
+a:hover
+{
+	background: #f9d58f;
+	color: #fff;
+}
+
+fieldset {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#header {
+	width: 150px;
+	float:left;
+}
+
+#navigation {
+	float:right;
+	width: 775px;
+	padding: 20px 0px 0px 0px;
+}
+
+#content {
+	clear:both;
+	padding: 0px 30px 0px 30px;
+}
+
+#layout {
+	width: 950px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+	margin-left: auto;
+    margin-right: auto;
+	text-align:center;
+	padding: 20px;
+}
+
+#websites {
+	padding: 40px 15px 15px 15px;
+}
+
+#blogroll {
+	/* filter:alpha(opacity=80); 
+	opacity:0.8; */
+	/* background: #7687bf; */
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding: 10px 30px 10px 10px;
+}
+
+#navlist li, #blogrolllist li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+#blogrolllist li {
+	font: 10px/14px Lucida Grande, Trebuchet MS, Verdana, Arial, sans-serif;
+	text-align:left;
+}
+
+#blogrollNav {
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	
+
+}
+
+a.website, a:visited.website {
+	font: 35px/21px Lucida Grande, Trebuchet MS, Verdana, Arial, sans-serif;
+}
+
+.roundabout-holder { 
+	padding: 0; 
+	height: 2em; 
+}
+
+.roundabout-moveable-item {
+	height: 3em;
+	width: 7em;
+	cursor: pointer;
+	/* background-color: #203e75; */
+	border: 1px solid #999;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px;
+	position:absolute;
+}
+
+.roundabout-in-focus { 
+	cursor: auto; 
+}
+
+@media all {
+	.fadein { visibility:hidden; }
+}
+
+@media handheld {
+	.fadein { visibility:visible; }
+}
