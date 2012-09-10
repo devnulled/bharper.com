@@ -30,6 +30,11 @@
         height: 20px;
         width: 5px;
       }
+      .footer-logo {
+        background: url(/assets/b/img/logos/Icon-Small.png) no-repeat right center; 
+        height: 40px;
+        width: 5px; 
+      }
       .container-logo {
         margin-left: 30px;
       }
@@ -39,7 +44,10 @@
       p {
         text-align: justify;
       }
-  
+      .footer-block p {
+        text-align: center;
+        margin-top: 10px;
+      }
     </style>
    
 
@@ -48,7 +56,6 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="/assets/b/img/logos/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/b/img/logos/Icon-72_2x.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/b/img/logos/Icon_2x.png">
@@ -68,7 +75,7 @@
           <div class="nav-collapse">
             <ul class="nav">
               <li><a href="/">Home</a></li>
-              <li><a href="/about/">About Me</a></li>
+              <li><a href="/about/">About</a></li>
               <li><a href="/projects/">Projects</a></li>
               <li><a href="/software/">Software</a></li>
               <li><a href="/publications/">Publications</a></li>
@@ -95,9 +102,22 @@
       </ul>
 
       <footer>
-        <p align="center">
-          This joint is copyright &copy; 2007-9999, <a href="http://bharper.com">Brandon Harper</a>.&nbsp; &nbsp;  Thanks to <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, and <a href="http://aws.amazon.com/cloudfront/">Amazon Cloudfront</a>.  Source available on <a href="https://github.com/devnulled/bharper.com">Github</a>
-        </p>. 
+        <div class="row-fluid">
+          <div class="span3">
+
+          </div>
+          <div class="span7">
+            <div class="footer-block">
+              <p>
+                This joint is copyright &copy; 2007-9999, <a href="http://bharper.com">Brandon Harper</a>.&nbsp; &nbsp;  Built with <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>.  Source available on <a href="https://github.com/devnulled/bharper.com">Github</a>.
+              </p>
+            </div>
+          </div>
+          <div class="span2 footer-logo">
+            <a class="brand" href="/">&nbsp;</a>
+          </div>
+        </div>
+        
       </footer>
 
     </div><!--/.fluid-container-->
