@@ -76,11 +76,11 @@
             <ul class="nav">
               <li {% if page.section == 'home' %}class="active"{% endif %}><a href="/">Home</a></li>
               <li {% if page.section == 'about' %}class="active"{% endif %}><a href="/about/">About</a></li>
-              <li><a href="/projects/">Projects</a></li>
-              <li><a href="/software/">Software</a></li>
-              <li><a href="/publications/">Publications</a></li>
-              <li><a href="/resources/">Resources</a></li>
-              <li><a href="/contact/">Contact</a></li>
+              <li {% if page.section == 'projects' %}class="active"{% endif %}><a href="/projects/">Projects</a></li>
+              <li {% if page.section == 'software' %}class="active"{% endif %}><a href="/software/">Software</a></li>
+              <li {% if page.section == 'publications' %}class="active"{% endif %}><a href="/publications/">Publications</a></li>
+              <li {% if page.section == 'resources' %}class="active"{% endif %}><a href="/resources/">Resources</a></li>
+              <li {% if page.section == 'contact' %}class="active"{% endif %}><a href="/contact/">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
