@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About Me &Delta; bharper.com
+section: about
 --- 
 
     <div class="row-fluid">
@@ -24,12 +25,8 @@ title: About Me &Delta; bharper.com
       <div class="span3">
         <div class="well sidebar-nav">
           <ul class="nav nav-list">
-          	<li class="nav-header">In This Section</li>
-            <li><a href="#about_me">About Me</a>
-            <li><a href="#about_this_site">About This Site</a>
-            <li class="nav-header">Related Links</li>
-            <li><a href="/contact/">Contact Me</a></li>
-            <li><a href="http://twitter.com/devnulled">Follow Me on Twitter</a></li>
+          	{% include subnav_about.html %}
+            {% include subnav_global.html %}
           </ul>
         </div>
       </div>
