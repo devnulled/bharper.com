@@ -46,3 +46,4 @@ test-output/
 *.pyc
 .pydevproject
 _site
+_jekyll_s3.yml
