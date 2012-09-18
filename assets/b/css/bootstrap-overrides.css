@@ -1,0 +1,33 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.sidebar-nav {
+  padding: 9px 0;
+}
+.brand-logo {
+  background: url('/assets/b/img/logos/Icon-Small.png') no-repeat left center;
+  height: 20px;
+  width: 5px;
+}
+.footer-logo {
+  background: url('/assets/b/img/logos/Icon-Small.png') no-repeat right center; 
+  height: 40px;
+  width: 5px; 
+}
+.container-logo {
+  margin-left: 30px;
+}
+.hero-unit h1, h1, h2, h3, h4, h5 {
+  color: #323232;
+}
+p {
+  text-align: justify;
+}
+.footer-block p {
+  text-align: center;
+  margin-top: 10px;
+}
+.hero-photo {
+  text-align: center;
+}
